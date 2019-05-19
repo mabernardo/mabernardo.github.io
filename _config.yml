@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Hello. I'm Marcio Bernardo."
+email: 'mabernardo@gmail.com'
+description: "I'm a software engineer from São Paulo, Brazil with 20+ years of experince in software development for a broad range of market segments, a strong aptitude for learning new technologies and skill in meeting aggressive goals."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mabernardo.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'marcioberna'
+github_username: 'mabernardo'
+medium_username: ''
+hackerrank_username: 'mabernardo'
+
+# Build settings
+markdown: kramdown
+theme: phantom # Uncomment once published to RubyGems
+plugins:
+  - jekyll-paginate
+
+### Phantom settings
+paginate: 10
+footer_text: '© 2019 Marcio Bernardo'
+admin_name: 'Marcio Bernardo'
+google_analytics: "UA-140418197-1" # Update with your own tracking ID
+enable_contact: true
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/about', text: 'About' }
